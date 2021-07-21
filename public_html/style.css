@@ -1,0 +1,29 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+#userDiv,
+#itemDiv {
+  display: flex;
+  flex: 1;
+  background-color: aliceblue;
+  align-items: center;
+  flex-direction: column;
+}
+h1 {
+  font-size: 45px;
+}
+
+.inputDiv {
+  margin: 20px;
+  width: 100px;
+}
